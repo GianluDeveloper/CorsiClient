@@ -1,8 +1,8 @@
-package model;
+package dto;
 
 import java.io.Serializable;
 
-public class Docenti implements Serializable {
+public class DocentiDto implements Serializable {
 
 	/**
 	 * 
@@ -11,13 +11,13 @@ public class Docenti implements Serializable {
 	private int idDocente, idCorso;
 	private String nomeDocente;
 
-	public Docenti(int idDocente, int idCorso, String nomeDocente) {
+	public DocentiDto(int idDocente, int idCorso, String nomeDocente) {
 		this.idDocente = idDocente;
 		this.idCorso = idCorso;
 		this.nomeDocente = nomeDocente;
 	}
 
-	public Docenti() {
+	public DocentiDto() {
 
 	}
 

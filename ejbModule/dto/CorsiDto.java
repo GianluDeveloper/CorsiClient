@@ -1,8 +1,8 @@
-package model;
+package dto;
 
 import java.io.Serializable;
 
-public class Corsi implements Serializable {
+public class CorsiDto implements Serializable {
 
 	/**
 	 * 
@@ -11,14 +11,14 @@ public class Corsi implements Serializable {
 	private Integer idCorso;
 	private String nomeCorso, dataInizio, dataFine;
 
-	public Corsi(Integer idCorso, String nomeCorso, String dataInizio, String dataFine) {
+	public CorsiDto(Integer idCorso, String nomeCorso, String dataInizio, String dataFine) {
 		this.idCorso = idCorso;
 		this.nomeCorso = nomeCorso;
 		this.dataInizio = dataInizio;
 		this.dataFine = dataFine;
 	}
 
-	public Corsi() {
+	public CorsiDto() {
 
 	}
 

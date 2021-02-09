@@ -1,8 +1,8 @@
-package model;
+package dto;
 
 import java.io.Serializable;
 
-public class Iscrizioni implements Serializable {
+public class IscrizioniDto implements Serializable {
 
 	/**
 	 * 
@@ -10,14 +10,14 @@ public class Iscrizioni implements Serializable {
 	private static final long serialVersionUID = -3269812542241503999L;
 	private int idIscrizione, idDipendente, idDocente, idCorso;
 
-	public Iscrizioni(int idIscrizione, int idDipendente, int idDocente, int idCorso) {
+	public IscrizioniDto(int idIscrizione, int idDipendente, int idDocente, int idCorso) {
 		this.idIscrizione = idIscrizione;
 		this.idDipendente = idDipendente;
 		this.idDocente = idDocente;
 		this.idCorso = idCorso;
 	}
 
-	public Iscrizioni() {
+	public IscrizioniDto() {
 
 	}
 
